@@ -1,4 +1,4 @@
-import { createContext, useContext } from "react";
+import { createContext, useContext, useState } from "react";
 
 
 const AppContext = createContext()
@@ -8,9 +8,13 @@ const AppContext = createContext()
 
 
 export const AppProvider = ({children})=>{
+
+    const [toggle, setToggle] = useState(true)
+    const [selectedPlayers , setSelectedPlayers] = useState([])
+    const [selectedPlayer , setSelectedPlayer] = useState(false)
   
 
-    return <AppContext.Provider value={{}}>
+    return <AppContext.Provider value={{toggle, setToggle , selectedPlayers, setSelectedPlayers, selectedPlayer, setSelectedPlayer }}>
         {children}
     </AppContext.Provider>
 
