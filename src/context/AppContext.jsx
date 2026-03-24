@@ -12,9 +12,10 @@ export const AppProvider = ({children})=>{
     const [toggle, setToggle] = useState(true)
     const [selectedPlayers , setSelectedPlayers] = useState([])
     const [selectedPlayer , setSelectedPlayer] = useState(false)
+    const [coin, setCoin]=useState(6000000000)
   
 
-    return <AppContext.Provider value={{toggle, setToggle , selectedPlayers, setSelectedPlayers, selectedPlayer, setSelectedPlayer }}>
+    return <AppContext.Provider value={{toggle, setToggle , selectedPlayers, setSelectedPlayers, selectedPlayer, setSelectedPlayer, coin, setCoin }}>
         {children}
     </AppContext.Provider>
 

@@ -2,30 +2,25 @@ import React from "react";
 import { FaFlag, FaUser } from "react-icons/fa";
 import useAppContext from "../context/AppContext";
 
-
 const PlayerCard = ({ player }) => {
-  const {name, country, image, role, playingStyle, rating, price } =
-    player;
-  const {
-   
-    selectedPlayers,
-    setSelectedPlayers,
-  } = useAppContext();
+  const { name, country, image, role, playingStyle, rating, price } = player;
+  const { selectedPlayers, setSelectedPlayers, coin, setCoin } = useAppContext();
 
   const handleSelectedPlayer = (player) => {
 
-    console.log(player.id);
-    if(selectedPlayers.length >= 11) return
+    console.log(player.price);
+   
+    if(coin <= 0)return;
+    if (selectedPlayers.length >= 11) return;
+     const price = coin - Number(player.price) ;
+    setCoin(Number(price))
 
     const exist = selectedPlayers.find((p) => p.id == player.id);
     if (exist) {
       return;
     } else {
       setSelectedPlayers((prev) => [...prev, player]);
-       
     }
-
-   
   };
 
   return (
@@ -54,18 +49,25 @@ const PlayerCard = ({ player }) => {
               <p>{country}</p>
             </div>
             <div>
-              <p>{role}</p>
+              <p className="bg-gray-200 px-4 py-1 font-bold rounded-4xl">{role}</p>
             </div>
           </div>
-          <p> Rating : {rating}</p>
-          <p>{playingStyle}</p>
+          <p className="font-bold"> Rating : {rating}</p>
+          <p className="bg-amber-200 w-fit px-4 py-1 rounded-4xl">{playingStyle}</p>
           <div className="flex justify-between items-center">
-            <p>{price}</p>
-            {selectedPlayers.find((p)=>p.id == player.id) ? (
-              <button disabled = {true} className="bg-white border border-gray-400 text-gray-500 px-4 py-2 rounded-md font-semibold" >Selected</button>
+            <p className="font-bold"> Price : {price}</p>
+            {selectedPlayers.find((p) => p.id == player.id) ? (
+              <button
+                disabled={true}
+                className="bg-white border border-gray-400 text-gray-500 px-4 py-2 rounded-md font-semibold"
+              >
+                Selected
+              </button>
             ) : (
-              <button onClick={() => handleSelectedPlayer(player)}
-              className="bg-amber-500 px-4 py-2 rounded-md font-semibold">
+              <button
+                onClick={() => handleSelectedPlayer(player)}
+                className="bg-[#E7FE29] px-4 py-2 rounded-md font-semibold"
+              >
                 Choose Player
               </button>
             )}
