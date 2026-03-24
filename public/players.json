@@ -1,0 +1,203 @@
+
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "country": "India",
+    "role": "Batsman",
+    "rating": 9.8,
+    "playingStyle": "Right-hand bat",
+    "price": 105000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Virat_Kohli_Batting.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "role": "Batsman",
+    "rating": 9.6,
+    "playingStyle": "Right-hand bat",
+    "price": 102000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Babar_azam_2023.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Joe Root",
+    "country": "England",
+    "role": "Batsman",
+    "rating": 9.5,
+    "playingStyle": "Right-hand bat",
+    "price": 98000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Joe_Root_batting_2019.jpg/800px-Joe_Root_batting_2019.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "role": "Batsman",
+    "rating": 9.4,
+    "playingStyle": "Right-hand bat",
+    "price": 97000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Kane_Williamson_batting_2019.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Steve Smith",
+    "country": "Australia",
+    "role": "Batsman",
+    "rating": 9.6,
+    "playingStyle": "Right-hand bat",
+    "price": 100000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Steve_Smith_batting.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "rating": 9.3,
+    "playingStyle": "Left-hand bat, Left-arm orthodox",
+    "price": 95000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Shakib_bowling.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Ben Stokes",
+    "country": "England",
+    "role": "All-rounder",
+    "rating": 9.7,
+    "playingStyle": "Left-hand bat, Right-arm fast",
+    "price": 103000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Ben_Stokes_batting.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Hardik Pandya",
+    "country": "India",
+    "role": "All-rounder",
+    "rating": 9.2,
+    "playingStyle": "Right-hand bat, Right-arm medium",
+    "price": 94000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Hardik_Pandya_batting.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Mitchell Starc",
+    "country": "Australia",
+    "role": "Bowler",
+    "rating": 9.4,
+    "playingStyle": "Left-arm fast",
+    "price": 96000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/65/Mitchell_Starc_bowling.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "role": "Bowler",
+    "rating": 9.7,
+    "playingStyle": "Right-arm fast",
+    "price": 101000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Jasprit_Bumrah_bowling.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Trent Boult",
+    "country": "New Zealand",
+    "role": "Bowler",
+    "rating": 9.3,
+    "playingStyle": "Left-arm fast",
+    "price": 92000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Trent_Boult_bowling.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "rating": 9.6,
+    "playingStyle": "Right-arm leg spin",
+    "price": 98000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Rashid_Khan_bowling.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Quinton de Kock",
+    "country": "South Africa",
+    "role": "Wicketkeeper",
+    "rating": 9.2,
+    "playingStyle": "Left-hand bat",
+    "price": 91000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Quinton_de_Kock_wicketkeeping.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Jos Buttler",
+    "country": "England",
+    "role": "Wicketkeeper",
+    "rating": 9.5,
+    "playingStyle": "Right-hand bat",
+    "price": 99000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Jos_Buttler_wicketkeeping.jpg"
+  },
+  {
+    "id": 15,
+    "name": "MS Dhoni",
+    "country": "India",
+    "role": "Wicketkeeper",
+    "rating": 9.4,
+    "playingStyle": "Right-hand bat",
+    "price": 97000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/MS_Dhoni_wicketkeeping.jpg"
+  },
+  {
+    "id": 16,
+    "name": "David Warner",
+    "country": "Australia",
+    "role": "Batsman",
+    "rating": 9.3,
+    "playingStyle": "Left-hand bat",
+    "price": 96000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/David_Warner_batting.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Rohit Sharma",
+    "country": "India",
+    "role": "Batsman",
+    "rating": 9.6,
+    "playingStyle": "Right-hand bat",
+    "price": 100000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Rohit_Sharma_batting.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Shaheen Afridi",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "rating": 9.2,
+    "playingStyle": "Left-arm fast",
+    "price": 93000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Shaheen_Afridi_bowling.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Glenn Maxwell",
+    "country": "Australia",
+    "role": "All-rounder",
+    "rating": 9.4,
+    "playingStyle": "Right-hand bat, Off spin",
+    "price": 97000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Glenn_Maxwell_batting.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Andre Russell",
+    "country": "West Indies",
+    "role": "All-rounder",
+    "rating": 9.5,
+    "playingStyle": "Right-hand bat, Right-arm fast",
+    "price": 99000000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Andre_Russell_batting.jpg"
+  }
+]
