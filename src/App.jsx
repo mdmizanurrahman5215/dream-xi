@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Navbar />
-      {/* <Banner/> */}
+      <Banner/>
       <Label />
       {toggle ? (
         <Suspense

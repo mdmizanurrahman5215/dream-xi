@@ -1,9 +1,12 @@
 import React from "react";
+import bgShadow from "../assets/banner-shadow.png"
 
-const Subscribe = ({title, subTitle, buttonText, className}) => {
+const Subscribe = ({title, subTitle, buttonText, className, }) => {
   return (
-    <div className="">
-      <div className={`${className}`}>
+    <div>
+      <div className={`${className} bg-black/10 bg-blend-darken `} 
+      style={{ backgroundImage: `url(${bgShadow})` }}
+      >
         <div >
           <h1 className="text-2xl">{title} </h1>
           <p>{subTitle}</p>

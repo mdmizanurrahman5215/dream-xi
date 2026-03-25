@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className='container mx-auto border-b border-gray-300 mb-6'>
             <div className='flex justify-between items-center py-4'>
                 <img src={logo} alt="" />
-                <div className='flex gap-1 items-center'>
+                <div className='flex gap-1 items-center text-2xl font-semibold'>
                     <span>{coin}</span>
                     <span>Coin</span>
                     <div><img src={currency} alt="" /></div>

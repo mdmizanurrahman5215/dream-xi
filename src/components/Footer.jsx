@@ -2,15 +2,18 @@ import React from "react";
 import Subscribe from "../common/Subscribe";
 import logo_footer from "../assets/logo-footer.png";
 
+
 const Footer = () => {
   return (
     <div className="bg-gray-950 text-white py-20 relative mt-80">
-      <div className="absolute left-1/2 transform -translate-x-1/2 mt-10 -top-80 text-black z-10 w-300 hidden md:block">
+      <div className="absolute left-1/2 transform -translate-x-1/2 mt-10 -top-80 text-black z-10 w-300 hidden md:block"
+       >
          <Subscribe
         title="Subscribe to our Newsletter"
         subTitle="Get the latest updates and news right in your inbox"
         buttonText="Subscribe"
-         className="container mx-auto border border-gray-50 flex justify-center items-center py-20 rounded-md mt-20 bg-amber-100 "
+         className="container mx-auto border border-gray-50 flex justify-center items-center py-20 rounded-md mt-20 "
+         
       />
       </div>
       <div className="container mx-auto ">
