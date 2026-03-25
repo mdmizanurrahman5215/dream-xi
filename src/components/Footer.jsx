@@ -21,14 +21,14 @@ const Footer = () => {
           <img src={logo_footer} alt="" />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-20 py-20 ">
-          <div className="space-y-4">
+          <div className="space-y-4 text-center md:text-start">
             <h1 className="text-3xl">About us</h1>
             <p>
               We are a passionate team dedicated to providing the best services
               to our customers.{" "}
             </p>
           </div>
-          <div className="space-y-4">
+          <div className="space-y-4 text-center md:text-start">
             <h1 className="text-3xl">Quick Links</h1>
             <ul>
               <li>Home</li>
@@ -37,7 +37,7 @@ const Footer = () => {
               <li>Contact</li>
             </ul>
           </div>
-          <div>
+          <div className="text-center md:text-start">
             <Subscribe
               title="Subscribe"
               subTitle="Subscribe to our newsletter for the latest updates."

@@ -13,22 +13,24 @@ function App() {
   const { toggle } = useAppContext();
   return (
     <>
-      <Navbar />
-      <Banner/>
-      <Label />
-      {toggle ? (
-        <Suspense
-          fallback={
-            <span className="loading loading-spinner loading-xl"></span>
-          }
-        >
-          <AvailablePlayers />
-        </Suspense>
-      ) : (
-        <SelectedPlayers />
-      )}
-     
-      <Footer />
+      <div className="px-4 md:px-0">
+        <Navbar />
+        <Banner />
+        <Label />
+        {toggle ? (
+          <Suspense
+            fallback={
+              <span className="loading loading-spinner loading-xl"></span>
+            }
+          >
+            <AvailablePlayers />
+          </Suspense>
+        ) : (
+          <SelectedPlayers />
+        )}
+
+        <Footer />
+      </div>
     </>
   );
 }
